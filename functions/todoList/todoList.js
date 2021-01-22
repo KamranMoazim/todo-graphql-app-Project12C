@@ -20,7 +20,7 @@ const typeDefs = gql`
 `;
 
 var adminClient = new faunadb.Client({
-  secret: process.env.FAUNA_DB_SECRET,
+  secret: "fnAD_7fdDxACADm8t6xyTjNTXTHFaCTppRj6smkK"  // process.env.FAUNA_DB_SECRET,
 });
 
 const resolvers = {
